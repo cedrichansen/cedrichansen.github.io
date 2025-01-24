@@ -127,18 +127,18 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Cedric."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    intro: "Hi, I'm"
+    title: "Cedric Hansen."
+    subtitle: "Software Engineer"
+    content: "Welcome to my personal web page. Here, you'll find all things related to my work, experience, and a touch of my personal life"
+    image: /images/pic1.jpg
     bottomImage:
       enable: true
       # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "CedricHansen_Resume.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -157,21 +157,35 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/profilepic.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am a software developer with a passion for designing server side software that is fault tolerant, and _fast_.
+ 
+      I am currently working as a software developer at [Square](https://squareup.com).
+
+      At Square, I am part of the Risk Engineering team - focused on ensuring that bad actors are preventing from causing harm, and good actors are met with a frictionless risk experience to get seamless access to the products that help them run their business.
+
+      I am currently working on a project that is centered around increasing the fault tolerance of payment review and approval.
+    
+
+
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few technologies I enjoy using"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - Java
+        - Guice
+        - Bazel
+        - Github
+        - Bash
+        - Apache Kafka
+        - Golang
+        - Dart/Flutter
+        - SQL
+        - AWS (SQS, S3, DynamoDB)
+        - C/C++
+
 
   # Experience
   experience:
@@ -179,9 +193,9 @@ params:
     # title: "Custom Name"
     items:
       - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+        company: "Square"
+        companyUrl: "https://squareup.com"
+        date: "October 2021 - present"
         featuredLink:
           enable: true
           name: "View the project"
@@ -189,9 +203,9 @@ params:
         content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
       - job: "Software Developer"
-        company: "Amazon"
+        company: "IBM"
         companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+        date: "May 2019 - October 2021"
         featuredLink:
           enable: true
           url: "https://example.com"
@@ -204,23 +218,8 @@ params:
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
+      - job: "Automation Engineer"
+        company: "Novelis"
         companyUrl: "https://example.com"
         date: "June 2017 - Nov 2019"
         featuredLink:
@@ -231,12 +230,6 @@ params:
 
           - Lead backend developer for a product.
           - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   # Education
   education:
