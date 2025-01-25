@@ -183,8 +183,8 @@ params:
         - Golang
         - Dart/Flutter
         - SQL
-        - AWS (SQS, S3, DynamoDB)
         - C/C++
+        - AWS (SQS, S3, DynamoDB)
 
 
   # Experience
@@ -196,27 +196,41 @@ params:
         company: "Square"
         companyUrl: "https://squareup.com"
         date: "October 2021 - present"
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+        # featuredLink:
+        #   enable: true
+        #   name: "View the project"
+        #   url: "https://example.com"
+        content: |
+          I have been working with the Risk team since joining Square. My main focus has been creating automated solutions to minimize risk loss, while providing a pleasant experience to good sellers inadvertently caught up in risk controls.
+          This involves design, and implementation, as well as lots of collaboration with other engineers, data scientists, and Product Managers.
+          
+          A few projects that I am particularly proud of:
+          - Designing, and implementing risk controls for Unlinked refunds for both [API](https://developer.squareup.com/docs/refunds-api/unlinked-refunds) and [retail](https://squareup.com/help/ca/en/article/6350-process-a-return-or-exchange-with-square-for-retail)
+          - Integrated various third party vendors into payment onboarding process, leading to a reduction in over $10 Million in Risk losses.
+          - Restructured payment activation risk controls, leading to a 70% decrease in latency (4s p99 -> 1.6s p99)
+          - Restructured payments risk review flow, to allow continued remediation of payments, even during outages
+          - Created Third Party data framework to signalize feature data into ML platform, reducing integration time for new data sources by ~20%.
+          
+ 
       - job: "Software Developer"
         company: "IBM"
-        companyUrl: "https://example.com"
+        companyUrl: "https://www.ibm.com"
         date: "May 2019 - October 2021"
         featuredLink:
           enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          url: "https://blog.openj9.org/2021/09/24/balanced-gc-performance-improvements-eden-heap-sizing-improvements/"
+        # info:
+        #   enable: true
+        #   content: "".
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          I worked at IBM, on the Runtime Technologies team, working on the Garbage Collection component of [OpenJ9](https://github.com/eclipse-openj9/openj9), a JVM effort primarily led by IBM, with a focus on small memory footprint and fast startup. 
+          This role was an incredible opportunity to learn the in's and outs of the JVM, from industry leaders.
+          
+          During my time at IBM, I worked on a few features to improve the performance of various GC components, including:
+          - Improved Balanced GC policy to reduce total GC pauses by up to 300%, by [dynamically adjusting eden size](https://blog.openj9.org/2021/09/24/balanced-gc-performance-improvements-eden-heap-sizing-improvements/), after [extensive performance testing](https://github.com/eclipse-openj9/openj9/issues/10721).
+          - Introduced the [target pause time](https://www.eclipse.org/openj9/docs/xgc/#targetpausetime) feature for Balanced GC policy, which allows this GC to have a soft pause time target (`-Xgc:targetPausetime`).
+          - Open sourced, and added to [Synthetic GC Workload](https://blog.openj9.org/2019/09/04/openj9-internship-gc-performance-and-testing/) ([git](https://github.com/adoptium/aqa-tests/tree/master/functional/SyntheticGCWorkload#a-multi-threaded-tunable-synthetic-gc-workload)) test framework.
+          - Resolved several user raised [issues](https://github.com/eclipse-openj9/openj9/issues?q=is%3Aissue+is%3Aclosed).
 
       - job: "Automation Engineer"
         company: "Novelis"
