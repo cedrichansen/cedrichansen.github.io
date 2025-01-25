@@ -232,18 +232,36 @@ params:
           - Open sourced, and added to [Synthetic GC Workload](https://blog.openj9.org/2019/09/04/openj9-internship-gc-performance-and-testing/) ([git](https://github.com/adoptium/aqa-tests/tree/master/functional/SyntheticGCWorkload#a-multi-threaded-tunable-synthetic-gc-workload)) test framework.
           - Resolved several user raised [issues](https://github.com/eclipse-openj9/openj9/issues?q=is%3Aissue+is%3Aclosed).
 
+      - job: "Software Engineer"
+        company: "Routemate"
+        companyUrl: "https://www.ext.tech/"
+        date: "December 2019 - October 2021"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
+        content: |
+          Routemate was a web application that I was commissioned to build for [Hansen Lawn&Gardens](https://www.greensideup.com/).
+          This application facilitated the creation, distribution, and optimization of routes, along with a notification system to alert clients when their properties had been visited. 
+          The application also had a forms feature, which enabled the creation, and completion of custom forms. 
+
+          This application was used by ~40 users for 4 years, and helped [Hansen Lawn&Gardens](https://www.greensideup.com/) operate efficiently throughout COVID-19 pandemic.
+
+          The software owned by [Hansen Lawn&Gardens](https://www.greensideup.com/), was eventually spun off into [EXT.tech](https://www.ext.tech/) in 2023, which built off of Routemates success. 
+
+          Some sample videos of Routemate are included in the [Projects](#projects) section
+
       - job: "Automation Engineer"
         company: "Novelis"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+        companyUrl: "https://novelis.com"
+        date: "May 2018 - December 2018"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I worked as an Automation Engineering intern at Novelis, one of the largest alluminium manufacturing companies in the world.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Developed a plant wide QR system for maintenance forms, including daily report dashboards, which reduced time taken to process forms by 50%.
+          - Independently created an application to generate QR codes for future forms.
 
   # Education
   education:
