@@ -54,7 +54,7 @@ Menus:
 
 params:
   title: "Cedric Hansen"
-  description: Personal site
+  description: Personal Site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
