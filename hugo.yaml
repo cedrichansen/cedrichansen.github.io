@@ -351,8 +351,23 @@ params:
           - icon: fab fa-github
             url: https://github.com/CSC480-18F/DataMea
 
+      - title: Open J9 Balanced GC Target Pause time
+        content: While working on the Runtime technologies team at IBM, I implmented a set of enhancements to OpenJ9 JVM's Balanced GC policy. The set of changes allowed applications to run, with significantly smaller heap, at equal or better performance, by improving heap region sizes. This set of changes also introduced a "Soft Target GC Pause" feature, which allows application owners to set a soft upper bound target to their GC pause times. This project involved significant collaboration with GC, and JVM team tech leads.
+        image: /images/balanced_gc.png
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - "C++"
+          - "Java"
+        links:
+          - icon: fa fa-newspaper
+            url: https://blog.openj9.org/2021/09/24/balanced-gc-performance-improvements-eden-heap-sizing-improvements/
+          - icon: fab fa-github
+            url: https://github.com/eclipse-openj9/openj9/pull/12043
+
       - title: Routemate
-        content: This application built in Flutter, allows landscaping, and other service companies, to optimize their daily operations. This application provides clarify into which properties have been visited, route optimization, forms, and a wealth of other features to help snow removal, lawn care, and other services. This software was commisioned by Hansen Ottawa, and later acquired by EXT.tech
+        content: This web application allows landscaping, and other service companies, to optimize their daily operations. This application provides clarify into which properties have been visited, route optimization, forms, and a wealth of other features to help snow removal, lawn care, and other services. This software was commisioned by Hansen Ottawa, and later acquired by EXT.tech
         image: /images/routemate.png
         featured:
           name: Demo
@@ -367,20 +382,42 @@ params:
           - icon: fa fa-globe
             url: https://www.ext.tech/
 
-      - title: Open J9 Balanced GC Target Pause time
-        content: This application built in Flutter, allows landscaping, and other service companies, to optimize their daily operations. This application provides clarify into which properties have been visited, route optimization, forms, and a wealth of other features to help snow removal, lawn care, and other services. This software was commisioned by Hansen Ottawa, and later acquired by EXT.tech
-        image: /images/routemate.png
+      - title: Cahoots
+        content: Cahoots is a mobile application built in Flutter, aimed at helping gym-goers find gym partners at their local gym. This app was created using Flutter, as part of my software engineering capstone, alongside Douglas Myrdek.
+        image: /images/cahoots.png
         # featured:
         #   name: Demo
         #   link: https://hugo-profile-2.netlify.app
         badges:
-          - "C++"
-          - "Java"
+          - "Flutter"
+          - "Dart"
+          - "AWS"
+          - "MongoDB"
+          - "Golang"
         links:
-          - icon: fa fa-newspaper
-            url: https://blog.openj9.org/2021/09/24/balanced-gc-performance-improvements-eden-heap-sizing-improvements/
-          - icon: fa fa-github
-            url: https://github.com/eclipse-openj9/openj9/pull/12043
+          - icon: fab fa-github
+            url: https://github.com/cedrichansen/Cahoots
+
+      - title: SquashOttawa.ca
+        content: Cahoots is a mobile application built in Flutter, aimed at helping gym-goers find gym partners at their local gym. This app was created using Flutter, as part of my software engineering capstone, alongside Douglas Myrdek.
+        image: /images/cahoots.png
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Flutter"
+          - "Dart"
+          - "AWS"
+          - "MongoDB"
+          - "Golang"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/cedrichansen/Cahoots
+
+
+
+
+
 
   #Contact
   # contact:
