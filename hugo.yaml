@@ -337,13 +337,14 @@ params:
 
       - title: DataMea
         content: This group project was the main outcome of my cscs480 course. It is an email analysis desktop app, which pulls interesting statstics from your Gmail account
-        image: /images/projects/profile2.jpg
+        image: images/datamea.png
         featured:
           name: Demo
           link: https://www.youtube.com/embed/xSVeZ-2Vglw
         badges:
           - "Java"
           - "SQL" 
+          - "javafx"
         links:
           - icon: fa fa-globe
             url: https://datamea.github.io/
@@ -351,18 +352,35 @@ params:
             url: https://github.com/CSC480-18F/DataMea
 
       - title: Routemate
-        content: This application built in Flutter, allows landscaping, and other service companies, to optimize their daily operations. This application provides clarify into which properties have been visited, route optimization, forms, and a wealth of other features to help snow removal, lawn care, and other services. This first version of this project has been in use for 4 years, by 30+ daily users
-        image: /images/projects/profile2.jpg
+        content: This application built in Flutter, allows landscaping, and other service companies, to optimize their daily operations. This application provides clarify into which properties have been visited, route optimization, forms, and a wealth of other features to help snow removal, lawn care, and other services. This software was commisioned by Hansen Ottawa, and later acquired by EXT.tech
+        image: /images/routemate.png
         featured:
-          name: Demo V2
+          name: Demo
           link: https://hugo-profile-2.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Flutter"
+          - "Dart"
+          - "AWS"
+          - "MongoDB"
+          - "Golang"
         links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - icon: fa fa-globe
+            url: https://www.ext.tech/
+
+      - title: Open J9 Balanced GC Target Pause time
+        content: This application built in Flutter, allows landscaping, and other service companies, to optimize their daily operations. This application provides clarify into which properties have been visited, route optimization, forms, and a wealth of other features to help snow removal, lawn care, and other services. This software was commisioned by Hansen Ottawa, and later acquired by EXT.tech
+        image: /images/routemate.png
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - "C++"
+          - "Java"
+        links:
+          - icon: fa fa-newspaper
+            url: https://blog.openj9.org/2021/09/24/balanced-gc-performance-improvements-eden-heap-sizing-improvements/
+          - icon: fa fa-github
+            url: https://github.com/eclipse-openj9/openj9/pull/12043
 
   #Contact
   # contact:
