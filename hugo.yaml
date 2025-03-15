@@ -399,20 +399,18 @@ params:
             url: https://github.com/cedrichansen/Cahoots
 
       - title: SquashOttawa.ca
-        content: Cahoots is a mobile application built in Flutter, aimed at helping gym-goers find gym partners at their local gym. This app was created using Flutter, as part of my software engineering capstone, alongside Douglas Myrdek.
-        image: /images/cahoots.png
-        # featured:
-        #   name: Demo
-        #   link: https://hugo-profile-2.netlify.app
+        content: SquashOttawa is a site I volunteered to develop for the Squash organization that I am a part of - Barrhaven Squash Club. I provide regular updates to this site, and collaborate with others to make updates.
+        image: /images/squashottawa.png
+        featured:
+          name: Demo
+          link: https://squashottawa.ca/
         badges:
-          - "Flutter"
-          - "Dart"
-          - "AWS"
-          - "MongoDB"
-          - "Golang"
+          - "HTML"
+          - "CSS"
+          - "JS"
         links:
           - icon: fab fa-github
-            url: https://github.com/cedrichansen/Cahoots
+            url: https://github.com/BarrhavenSquashClub/barrhavensquashclub.github.io
 
 
 
