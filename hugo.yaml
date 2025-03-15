@@ -337,7 +337,7 @@ params:
 
       - title: DataMea
         content: This group project was the main outcome of my cscs480 course. It is an email analysis desktop app, which pulls interesting statstics from your Gmail account
-        image: images/datamea.png
+        image: images/projects/DataMea-example.gif
         featured:
           name: Demo
           link: https://www.youtube.com/embed/xSVeZ-2Vglw
@@ -400,7 +400,7 @@ params:
 
       - title: SquashOttawa.ca
         content: SquashOttawa is a site I volunteered to develop for the Squash organization that I am a part of - Barrhaven Squash Club. I provide regular updates to this site, and collaborate with others to make updates.
-        image: /images/squashottawa.png
+        image: /images/squashottawav2.png
         featured:
           name: Demo
           link: https://squashottawa.ca/
@@ -411,6 +411,57 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/BarrhavenSquashClub/barrhavensquashclub.github.io
+
+      - title: Encrypted Streaming Service
+        content: This project is a streaming service, which used AES encryption, and multicast sockets to securely stream the hosts webcam view, to clients with the correct room password. Used the webcam capture API to connect to get images from our webcam.
+        image: /images/projects/multiCastStream.gif
+        featured:
+          name: Demo
+          link: /images/projects/multiCastStream.gif
+        badges:
+          - "Java"
+          - "Webcam Capture API"
+          - "Cryptography"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/cedrichansen/csc445hw03/tree/updatedGui
+
+      - title: File Transfer Program
+        content: This project is a file transfer program which is built using UDP datagram packets. The program is modeled after TFTP, and supports both Stop and Wait style acknowledgements, along with a TCP style sliding windows protocol for significant transfer rate improvements
+        image: /images/projects/ftp.png
+        badges:
+          - "Java"
+          - "Computer Networking"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/cedrichansen/File_Transfer_Program
+
+
+      - title: Anki Car Intersection Handler
+        content: This project was the culmination of my software requirements engineering course. The goal was to create a serverless program, that successfully allow vehicles to navigate through the intersection without a collision (reload page to replay gif)
+        image: /images/projects/anki.gif
+        featured:
+          name: Demo
+          link: /images/projects/anki.gif
+        badges:
+          - "Java"
+          - "Computer Networking"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/cedrichansen/Anki-4-Way-Stop-Manager
+
+      - title: Custom Concurrent Hashtable
+        content: This project is my custom implementation of a concurrent hashtable, and using JMH benchmark framework, was compared against the jdk concurrentHashmap (which happened to have been created by my professor, Doug Lea)
+        image: /images/projects/JDKvsCustomHT.png
+        badges:
+          - "Java"
+          - "JMH"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/cedrichansen/csc375hw02
+
+
+        
 
 
 
