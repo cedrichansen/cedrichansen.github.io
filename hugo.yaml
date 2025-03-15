@@ -131,13 +131,14 @@ params:
     intro: "Hi, I'm"
     title: "Cedric Hansen."
     subtitle: "Software Engineer"
-    content: "Welcome to my personal web page. Here, you'll find all things related to my work, experience, and a touch of my personal life"
+    content: "Welcome to my personal web page. Here, you'll find all things related to my work, experience, and a touch of my personal life. My contact details can be found below"
     image: /images/pic1.jpg
     bottomImage:
       enable: true
       # roundImage: true # Make hero image circular | default false
     button:
       enable: true
+      download: true
       name: "Resume"
       url: https://docs.google.com/document/d/1M7tz_Xk1DztqI4ELV7YJfN6c938paQbE/edit
       # download: true
