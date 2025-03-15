@@ -138,9 +138,9 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "CedricHansen_Resume.pdf"
-      download: true
-      newPage: false
+      url: https://docs.google.com/document/d/1M7tz_Xk1DztqI4ELV7YJfN6c938paQbE/edit
+      # download: true
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -460,12 +460,64 @@ params:
           - icon: fab fa-github
             url: https://github.com/cedrichansen/csc375hw02
 
+      - title: Yelp Closest Businesses
+        content: This is one of my projects from my csc365 course. This is a persistent, weighted graph algorithm, which shortest path finding capabilities, between business listed by yelp
+        image: /images/projects/pathfinding.gif
+        featured:
+          name: Demo
+          link: /images/projects/pathfinding.gif
+        badges:
+          - "Java"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/cedrichansen/csc365hw03
 
-        
+      - title: Questionaires
+        content: This game is a desktop version of, cards against humanity mixed with Quiplash, with a twist. Playable with multiple players across a wifi network. Includes a built in chat application. Built alongside a few SUNY Oswego classmates
+        image: /images/projects/questioneers.jpg
+        badges:
+          - "Java"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/dmyrdek/csc380project
+
+      - title: Flood-it Parallel Solver
+        content: This project is a parallel move evaluator, which finds a winning list of moves to beat the game "Flood-it". Solutioning is sharded out to several helper servers to maximize throughput.
+        image: /images/projects/flood-it-Solver.gif
+        featured:
+          name: Demo
+          link: /images/projects/flood-it-Solver.gif
+        badges:
+          - "Java"
+          - "Computer Networking"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/cedrichansen/csc375hw03
 
 
+      - title: Parallel Genetic Algorithm
+        content: This project is an implementation of a parallel genetic algorithm which finds the most effective layout of squares in the grid
+        image: /images/projects/geneticAlgorithm.gif
+        featured:
+          name: Demo
+          link: /images/projects/geneticAlgorithm.gif
+        badges:
+          - "Java"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/cedrichansen/csc375hw01
 
-
+      - title: Cube Runner
+        content: This is a game I made called asteroids. In this game, the user navigates a ship, and must dodge the asteroids that fly onto the screen. This is an omage to "Cube Runner" game
+        image: /images/projects/asteroids.gif
+        featured:
+          name: Demo
+          link: http://cs.oswego.edu/~chansen/cubeRunner/index.html
+        badges:
+          - "Java"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/cedrichansen/cubeRunner
 
 
   #Contact
