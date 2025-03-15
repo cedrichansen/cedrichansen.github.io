@@ -384,7 +384,7 @@ params:
 
       - title: Cahoots
         content: Cahoots is a mobile application built in Flutter, aimed at helping gym-goers find gym partners at their local gym. This app was created using Flutter, as part of my software engineering capstone, alongside Douglas Myrdek.
-        image: /images/cahoots.png
+        image: /images/cahootsv2.png
         # featured:
         #   name: Demo
         #   link: https://hugo-profile-2.netlify.app
