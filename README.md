@@ -1,0 +1,5 @@
+### Running locally
+
+```
+hugo server
+```
